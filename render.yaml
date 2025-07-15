@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: api-estres-hidrico
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
-    pythonVersion: 3.10.13
