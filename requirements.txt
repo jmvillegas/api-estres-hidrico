@@ -1,0 +1,5 @@
+Flask==2.3.3
+tensorflow==2.10.0
+scikit-learn
+joblib
+gunicorn
