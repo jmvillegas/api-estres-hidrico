@@ -7,7 +7,8 @@ import tensorflow as tf
 app = Flask(__name__)
 
 # Cargar el modelo y el scaler
-modelo = tf.keras.models.load_model("modelo_estres_hidrico_maizV9.h5")
+
+modelo = tf.keras.models.load_model("modelo_estres_hidrico_maizV10.keras")
 scaler = joblib.load("scaler_estres_hidrico_maizV9.pkl")
 
 # Mapeo de clases a etiquetas
